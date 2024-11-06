@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Portfolio | SAYAN KUMAR DAS</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="headerTitle">
+            My Portfolio
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact Me</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Home" class="sec">
+            <!-- Home page of the web -->
+            <article id="Home-Article">
+                <div class="box">
+                    <h2>SAYAN KUMAR DAS</h2>
+                    <h4>Web Developer | Designer | Programmer</h4>
+                </div>
+                <div class="box">
+                    <p>Hi, I'm a web developer, passionate about creating and developing web interfaces & full-stack
+                        websites . I have many years of experience in this area of work , with multiple quality
+                        projects.</p>
+                </div>
+                <button id="Resume-btn" class="btn"><a href="Resource/sayan.pdf" download="SAYAN_KUMAR_DAS"
+                        class="dbtn">Download Resume</a></button>
+                <div class="social-logo">
+                    <a href="tel:+919609009917"><i class="fas fa-phone"></i></a>
+                    <a href="mailto:sayankumardas0007@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/sayan-kumar-das-46467b22a/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/sayankumardas0007"><i class="fa-brands fa-github"></i></a>
+                    <!-- <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a> -->
+                    <!-- <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i></a> -->
+                    <!-- <a href="https://instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a> -->
+                </div>
+            </article>
+            <figure>
+                <!-- <img src="Resource/images/SAYAN.jpg" alt="img loding error" width="230"> -->
+                <!-- add img using css -->
+            </figure>
+
+        </section>
+        <section id="About" class="sec">
+            <!-- About page of the web -->
+            <figure>
+                <img src="Resource/images/SAYAN.jpg" alt="img loding error" width="230">
+            </figure>
+            <div class="about-section">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <button class="tab-link active" onclick="openTab(event, 'education')">Education</button>
+                    <button class="tab-link" onclick="openTab(event, 'experience')">Experience</button>
+                    <button class="tab-link" onclick="openTab(event, 'skills')">Skills</button>
+                </div>
+
+                <!-- Content Sections -->
+                <div id="education" class="tab-content active">
+                    <h3>GREATER KOLKATA COLLEGE OF ENGINEERING AND MANAGEMENT</h3>
+                    <h4>2024-2025 [75%]</h4>
+                    <p>B.Tech in CSE.</p>
+                    <h3>MAZILPUR J M TRAINING HIGH SCHOOL</h3>
+                    <h4>2023-2024 [85%]</h4>
+                    <p>Higher Secondary Education.</p>
+                    <h3>NIMPITH RAMKRISHNA VIDYABHAVAN</h3>
+                    <h4>2022-2023 [77%]</h4>
+                    <p>Secondary Education(Madhyamik).</p>
+                </div>
+
+                <div id="experience" class="tab-content">
+                    <h3>2024-2025</h3>
+                    <p>AI, ML & DL.</p>
+                    <h3>2023-2024</h3>
+                    <p>Backend Development.</p>
+                    <h3>2022-2023</h3>
+                    <p>Frontend Development.</p>
+                </div>
+
+                <div id="skills" class="tab-content">
+                    <h3>Machine Learning Engineering</h3>
+                    <p>Basic Machine Learning Algorithms & Deep Learning Algorithms.</p>
+                    <h3>Full-Stack Web Developer</h3>
+                    <p>Frontend, Backend and Database Management.</p>
+                </div>
+            </div>
+        </section>
+        <section id="Services" class="sec">
+            <!-- Services page of the web -->
+            <div class="services-hero">
+                <h1>My Services</h1>
+                <p>My area of expertise are.</p>
+            </div>
+
+            <div class="services-cards">
+                <div class="service-card">
+                    <img src="Resource/images/images (1).png" alt="Service 1 Icon">
+                    <h3>Web Development</h3>
+                    <p>I am a full-stack Web Developer. I can work with Frontend, Backend and Database.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+
+                <div class="service-card">
+                    <img src="Resource/images/images.png" alt="Service 2 Icon">
+                    <h3>Machine Learning Engineer</h3>
+                    <p>I Specialized over Machine Learning and Deep Learning Algorithms.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section id="Project" class="sec">
+            <!-- Project page of the web -->
+            <!-- Hero Section -->
+            <div class="projects-hero">
+                <h1>My Projects</h1>
+                <p>A collection of my recent work in web development, design, and more.</p>
+            </div>
+
+            <!-- Project Grid Section -->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="Resource/images/Screenshot (18).png" alt="Project 1">
+                    <h3>Online Quize website</h3>
+                    <p>I completed this project during my 2nd year Hakathon.</p>
+                    <a href="https://github.com/sayankumardas0007/online_quiz_website.git" class="view-details">View
+                        Details</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="Resource/images/Screenshot (19).png" alt="Project 2">
+                    <h3>Face Detection System</h3>
+                    <p>I completed this project during my Internship priod as a final project.</p>
+                    <a href="https://github.com/sayankumardas0007/Internship-Project-2024-SIKHARTHY-INFOTECH-PVT.-LTD.-.git"
+                        class="view-details">View Details</a>
+                </div>
+            </div>
+        </section>
+        <section id="Contact" class="sec">
+            <!-- Contact page of the web -->
+            <!-- Hero Section -->
+
+            <div class="contact-hero">
+                <h1>Contact Me</h1>
+                <p>I’d love to hear from you! Reach out for inquiries or collaborations.</p>
+            </div>
+            <div class="contact-form-section">
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+
+            <!-- <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSemtxuCPYu2zMzCSqcn4oUib6J9QHIDoIXcPm8q02WQaBz-yA/viewform?embedded=true"
+                width="640" height="852" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+
+
+            <div class="alternative-contact">
+                <h3>Other Ways to Connect</h3>
+                <p>Email: <a href="mailto:sayankumardas0007@gmail.com">sayankumardas0007@gmail.com</a></p>
+                <p>Phone: <a href="tel:+919609009917">+91 9609009917</a></p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/sayan-kumar-das-46467b22a/" class="social-icon">LinkedIn</a>
+
+                    <!-- <a href="#" class="social-icon">Twitter</a> -->
+                    <a href="https://github.com/sayankumardas0007" class="social-icon">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        SAYAN KUMAR DAS | © 2024 All rights reserved
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
