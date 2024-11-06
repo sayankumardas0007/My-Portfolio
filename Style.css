@@ -536,12 +536,15 @@ i:hover {
     #About{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     #About figure {
         width: 300px;
         height: 300px;
         margin-bottom: 40px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .contact-form-section {
