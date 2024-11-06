@@ -530,8 +530,9 @@ i:hover {
 
     #Home-Article{
         order: 1;
+        width: auto;
     }
-
+        
     #About{
         flex-direction: column;
         justify-content: center;
@@ -541,6 +542,15 @@ i:hover {
         width: 300px;
         height: 300px;
         margin-bottom: 40px;
+    }
+
+    .contact-form-section {
+        width: 80vw;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 75vw;
     }
 
     .services-cards,
